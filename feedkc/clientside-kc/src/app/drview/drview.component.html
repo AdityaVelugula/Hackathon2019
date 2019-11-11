@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col-sm-1">
+    <div class="wrapper text-white">
+      <div class="main_sidebar">
+        <div class="heading">
+          <h1 class="m-4">FeedKC</h1>
+        </div>
+        <ul class="pt-3">
+          <li [ngClass]="{'active': selectedItemId == 'dashboard'}" ><button mat-button (click)="onclick('Donate')"><span
+            class="subHeading">Donate</span></button></li>
+          <li [ngClass]="{'active': selectedItemId == 'dashboard'}" ><button mat-button (click)="onclick('logout')"><span
+            class="subHeading">Logout</span></button></li>
+
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-11 pl-5">
+    <div class="row studentHeader">
+      <div class="col-sm-3">
+        <h2>Student Activity</h2>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+

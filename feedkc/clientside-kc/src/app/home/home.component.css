@@ -1,0 +1,16 @@
+.button-row{
+position: relative;
+  top:100px;
+  left:500px;
+  margin-left: 10px;
+
+}
+.nav-bar{
+  margin-left: 10px;
+
+  justify-content: space-between;
+}
+.span{
+
+
+}
